@@ -2,12 +2,12 @@ import { count } from 'console';
 import React from 'react';
 import './nav.css'
 import { useState } from "react";
-
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
-    console.log(navbar)
+    
+    
     return (
-        <nav className="w-full bg-white shadow ">
+        <nav className="w-full bg-white shadow absolute ">
             
             <div className="justify-between px-4 mx-auto  md:items-center md:flex md:px-8 bg-black">
             
@@ -17,7 +17,7 @@ export default function Navbar() {
                         <div className='flex space-x-4'>
                            
 
-                                <h2 className="text-4xl inter text-white flex hover:text-blue-700">Pvwn.</h2>
+                                <h2 className="text-4xl inter text-white flex hover:text-blue-700">PVWN.</h2>
                             
                         </div>
                         </a>
