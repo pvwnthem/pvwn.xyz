@@ -11,10 +11,10 @@ export default function Body() {
     
     
     return (
-        <div className="w-full h-screen bg-black flex items-center text-white border border-red-700">
+        <div className="w-full h-screen bg-black flex items-center text-white">
             
             
-            <div className='mx-auto border border-red-700 '>
+            <div className='mx-auto  '>
             <div className='flex w-full inter text-7xl flex-col  text-center'>
             <ReactTypingEffect
         text={["PVWN"]} speed={100} typingDelay={750} eraseDelay={100000000000000} cursor="|"
