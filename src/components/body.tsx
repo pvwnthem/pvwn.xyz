@@ -15,6 +15,23 @@ export default function Body() {
     return (
         <div className='w-screen h-screen bg-black'>
             < StarrySky />
+            <div className="w-full h-screen bg-black flex items-center text-white ">
+
+            <div className='mx-auto'>
+            <div className=' flex w-full inter text-7xl flex-col  text-center '>
+            
+            <ReactTypingEffect className='logo'
+        text={["PVWN"]} speed={100} typingDelay={750} eraseDelay={100000000000000} cursor="|"
+      />
+      
+            </div>
+            </div>
+            
+            
+            
+            
+        </div>
+        <div id="e"><E /></div>
         
         </div>
     );

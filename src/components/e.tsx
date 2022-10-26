@@ -10,7 +10,7 @@ export default function Body() {
     
     
     return (
-        <div className="w-full h-screen bg-red-700 flex items-center text-white">
+        <div className="w-full h-screen bg-black flex items-center text-white">
             
             
             <div className='mx-auto  '>

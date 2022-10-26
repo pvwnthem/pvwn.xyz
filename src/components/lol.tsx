@@ -2,9 +2,13 @@
 import Anime, { anime } from 'react-anime';
 import React from 'react';
 import './b.css'
+function getRandomNumberBetween(min: number,max: number){
+  return Math.floor(Math.random()*(max-min+1)+min);
+}
 export default class StarrySky extends React.Component {
+  
     state = {
-      num: 120,
+      num: getRandomNumberBetween(500,1000),
       vw: Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
       vh: Math.max(document.documentElement.clientHeight, window.innerHeight || 0)
     };
@@ -13,11 +17,11 @@ export default class StarrySky extends React.Component {
         targets: ["#sky .star"],
         opacity: [
           {
-            duration: 700,
+            duration: 250,
             value: "0"
           },
           {
-            duration: 700,
+            duration: 300,
             value: "1"
           }
         ],
@@ -34,7 +38,7 @@ export default class StarrySky extends React.Component {
         delay: (el: any, i: any) => 1000 * i,
         opacity: [
           {
-            duration: 700,
+            duration: 350,
             value: "1"
           }
         ],
@@ -63,6 +67,14 @@ export default class StarrySky extends React.Component {
       
     }
     render() {
+      function randomColor() {
+        if (getRandomNumberBetween(500, 1000) < 990) {
+          return 'white';
+        } 
+        else {
+          return 'red';
+        }
+      }
       const { num } = this.state;
       return (
         <div id="App">
