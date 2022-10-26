@@ -4,7 +4,6 @@ import ReactTypingEffect from 'react-typing-effect';
 import ReactAudioPlayer from 'react-audio-player';
 import { useState } from "react";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import './b.css'
 export default function Body() {
     const [pd, setPd] = useState('.');
     const [isPlaying, setIsPlaying] = useState(false);
