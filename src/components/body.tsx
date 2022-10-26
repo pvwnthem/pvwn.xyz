@@ -18,13 +18,17 @@ export default function Body() {
             <div className="w-full h-screen bg-black flex items-center text-white ">
 
             <div className='mx-auto'>
-            <div className=' flex w-full inter text-7xl flex-col  text-center '>
+            <div className=' flex w-full inter flex-col  text-center '>
             
-            <ReactTypingEffect className='logo'
-        text={["PVWN"]} speed={100} typingDelay={750} eraseDelay={100000000000000} cursor="|"
+            <ReactTypingEffect className='logo mb-2'
+        text={["PVWN"]} speed={100} typingDelay={750}  eraseDelay={100000000000000} cursor=" "
       />
       
+      
             </div>
+            <ReactTypingEffect className='logo2 ml-5 mx-auto'
+        text={["Full Stack Web Developer"]} speed={50} typingDelay={1500}  eraseDelay={100000000000000} cursor=" "
+      />
             </div>
             
             
