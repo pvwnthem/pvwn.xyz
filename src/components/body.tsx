@@ -4,7 +4,7 @@ import ReactTypingEffect from 'react-typing-effect';
 import ReactAudioPlayer from 'react-audio-player';
 import { useState } from "react";
 import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
-import E from './e'
+import Profile from './Profile'
 import StarrySky from './lol'
 import './b.css'
 export default function Body() {
@@ -35,7 +35,7 @@ export default function Body() {
             
             
         </div>
-        <div id="e"><E /></div>
+        <Profile />
         
         </div>
     );
