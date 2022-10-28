@@ -21,13 +21,13 @@ export default function Profile() {
         <div className='w-full h-full py-12  flex'>  
         
                     
-                    <div className=' card md:w-2/3 w-full h-full bg-white mx-auto rounded-3xl  flex'>
+                    <div className=' card md:w-2/3 w-full h-full bg-gray-900 mx-auto rounded-3xl '>
                         
                         
-                        <div className='w-full h-full md:py-8 py-2 flex '>
+                        <div className='w-full h-full md:py-8 py-2 flex  '>
                         
                         
-                            <div className=' ml-8 mr-8 rounded-3xl h-full bg-black md:w-1/2 w-full  '>
+                            <div className=' ml-8 mr-8 rounded-3xl h-full bg-black md:w-1/2 w-full md:mx-8 mx-auto  '>
                                 <div className='w-36 h-36 mx-auto py-8 '>                     
                                     <img src="waltuh.png" className='image rounded-full'></img>
                                 </div>    
@@ -52,8 +52,8 @@ export default function Profile() {
                                       
                                 
                             </div>   
-                                
-                            <div className='w-1/2  h-full flex'>
+                            <div></div>
+                            <div className='w-1/2  h-full flex flex-col mr-8'>
                                  <div className='h-1/2 w-full mr-8 rounded-2xl bg-black text-center'>
                                     <h1 className='inter text-4xl py-4'>My Skills</h1>
                                     <div className='flex space-x-2 px-4 mt-2  '>
@@ -120,8 +120,11 @@ export default function Profile() {
                                         <img src="https://github-profile-trophy.vercel.app/?username=pvwnthem" className='e'></img>
                                         </div>
                                     </div>
+                                </div><div className='w-full rounded-2xl mt-8 h-1/2 flex bg-black'>
+                                    <h1 className='inter text-4xl mt-4 mx-auto'>Contact Me!</h1>
                                 </div>
                             </div> 
+                            
     
                             </div>
     
