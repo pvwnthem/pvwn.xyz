@@ -1,8 +1,14 @@
-.card {
-    
+.btn:hover {
+    transform: scale(1.1);
+}
+.above {
+    z-index: 10;
 }
 
+a {
+    z-index: 10;
+}
 
-.image {
-    opacity: 100%;
+#ab {
+    z-index: 10;
 }
