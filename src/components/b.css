@@ -27,7 +27,9 @@ body {
     transform: translatex(calc(50vw - 50%)) translatey(calc(50vh - 50%))
       rotate(120deg);
   }
- 
+  ::-webkit-scrollbar {
+     display: none;
+  }
   
   .wish {
     height: 2px;
