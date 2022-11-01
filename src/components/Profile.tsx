@@ -112,8 +112,11 @@ export default function Profile() {
                                         <img src="https://github-profile-trophy.vercel.app/?username=pvwnthem" className='e'></img>
                                         </div>
                                     </div>
-                                </div><div className='w-full md:rounded-2xl md:mt-8 h-1/2 flex bg-black'>
-                                    <h1 className='inter text-4xl mt-4 mx-auto'>Contact Me!</h1>
+                                </div><div className='w-full md:rounded-2xl md:mt-8 h-1/2 bg-black'>
+                                    <h1 className='inter text-4xl mt-4 text-center'>Contact Me!</h1>
+                                    
+                                    <p className='inter text-xl mt-4 text-center'>Email: pvwn.them@gmail.com</p>
+                                    <p className='inter text-xl mt-4 text-center'>Discord: pvwn#0720</p>
                                 </div>
                             </div> 
                             

@@ -7,6 +7,8 @@ import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scro
 import Profile from './Profile'
 import StarrySky from './lol'
 import './b.css'
+
+import Projects from './projects';
 export default function Body() {
     const [pd, setPd] = useState('.');
     const [isPlaying, setIsPlaying] = useState(false);
@@ -36,6 +38,9 @@ export default function Body() {
             
         </div>
         <Profile />
+        < Projects shown={true} />
+            
+        
         
         </div>
     );
