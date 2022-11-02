@@ -1,10 +1,10 @@
 import { count } from 'console';
 import React from 'react';
 import './nav.css'
-import { useState } from "react";
+import Profile from './Profile';
+import { useState, useRef } from "react";
 export default function Navbar() {
     const [navbar, setNavbar] = useState(false);
-    
     
     return (
         <nav className="w-full bg-white shadow absolute ">

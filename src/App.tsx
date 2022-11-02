@@ -6,7 +6,6 @@ import './components/b.css'
 function App() {
   return (
     <div className="App">
-        <Navbar />
         < Body />
         
     </div>
