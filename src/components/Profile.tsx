@@ -52,6 +52,7 @@ export default function Profile() {
                                       
                                 
                             </div>   
+                            
                             <div></div>
                             <div className='md:w-1/2  h-full flex flex-col md:mr-8'>
                                  <div className='h-1/2 w-full mr-8 md:rounded-2xl bg-black text-center'>
