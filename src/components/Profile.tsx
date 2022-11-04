@@ -18,13 +18,13 @@ export default function Profile() {
             
         <div className='w-full h-full flex'>
             
-        <div className='w-full h-full py-12  flex'>  
+        <div className='w-full h-full  flex'>  
         
                     
                     <div className=' card md:w-2/3 w-full h-full md:bg-white mx-auto rounded-3xl  '>
                         
                         
-                        <div className='md:w-full h-full md:py-8 py-2 md:flex  '>
+                        <div className='md:w-full md:h-full md:py-8 py-2 md:flex  '>
                         
                         
                             <div className=' md:ml-8  md:mr-8 rounded-3xl h-full bg-black md:w-1/2 w-full md:mx-8 mx-auto  '>
@@ -52,7 +52,7 @@ export default function Profile() {
                                       
                                 
                             </div>   
-                            
+
                             <div></div>
                             <div className='md:w-1/2  h-full flex flex-col md:mr-8'>
                                  <div className='h-1/2 w-full mr-8 md:rounded-2xl bg-black text-center'>
