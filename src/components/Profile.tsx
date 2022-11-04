@@ -21,7 +21,7 @@ export default function Profile() {
         <div className='w-full h-full py-12  flex'>  
         
                     
-                    <div className=' card md:w-2/3 w-full h-full md:bg-gray-900 mx-auto rounded-3xl  '>
+                    <div className=' card md:w-2/3 w-full h-full md:bg-white mx-auto rounded-3xl  '>
                         
                         
                         <div className='md:w-full h-full md:py-8 py-2 md:flex  '>
